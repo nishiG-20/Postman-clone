@@ -74,7 +74,7 @@ let submit=document.getElementById('submit');
      let requestType= document.querySelector("input[name='requestType']:checked").value;
      let contentType=document.querySelector("input[name='contentType']:checked").value;
      
-     //Log all the values in the console for debugging.
+     //Log all the values in the console for debugging purposes.
      //console.log("URL is",url);
      //console.log("Content Type is",contentType);
      //console.log("requestType is",requestType);
