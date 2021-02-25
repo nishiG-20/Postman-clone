@@ -1,5 +1,3 @@
-console.log("Nishi is going to rule the world Accept it mo**** otherwise you will be forced to accept it");
-
 let addedParamCount=0;
 
 //Utility function to get Dom element from string
