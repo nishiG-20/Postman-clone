@@ -1,3 +1,4 @@
+const port = process.env.PORT || 3000
 let addedParamCount=0;
 
 //Utility function to get Dom element from string
@@ -137,3 +138,6 @@ let submit=document.getElementById('submit');
      
 });
 
+app.listen(port, () => {
+console.log('Server is up on port ' + port)
+})
